@@ -2,10 +2,88 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Music Album</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f5f5f5;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        .album {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .track {
+            margin-bottom: 30px;
+        }
+        audio {
+            width: 100%;
+            margin-top: 10px;
+        }
+        h2 {
+            margin-bottom: 5px;
+        }
+        p.lyrics {
+            background: #fafafa;
+            padding: 10px;
+            border-left: 5px solid #ccc;
+            font-style: italic;
+        }
+    </style>
 </head>
 <body>
-    
+    <div class="album">
+        <h1>🎵 My First Music Album 🎵</h1>
+
+        <div class="track">
+            <h2>Track 1: Call Out My Name</h2>
+            <audio controls>
+                <source src="The Weeknd - Call Out My Name (Official Video) [M4ZoCHID9GI].mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <p class="lyrics">
+                We found each other</br>
+                I helped you out of a broken place</br>
+                You gave me comfort</br>
+                But falling for you was my mistake
+            </p>
+        </div>
+
+        <div class="track">
+            <h2>Track 2: Jhol</h2>
+            <audio controls>
+                <source src="Jhol _ Coke Studio Pakistan _ Season 15 _ Maanu x Annural Khalid [EIqoYozcbx8].mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <p class="lyrics">
+                Kivein tainu main vikhavaan?</br>
+                Dilon russ gayian chaahvaan</br>
+                Teri yaadan 'ch bikhra main, duniya sajavaan
+            </p>
+        </div>
+
+        <div class="track">
+            <h2>Track 3: Snowman</h2>
+            <audio controls>
+                <source src="Sia - Snowman (Lyrics) [AnpxhP6vHaE].mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <p class="lyrics">
+                Don't cry, snowman, not in front of me</br>
+                Who'll catch your tears if you can't catch me, darling?</br>
+                If you can't catch me, darling</br>
+                Don't cry, snowman, don't leave me this way</br>
+                A puddle of water can't hold me close, baby</br>
+                Can't hold me close, baby
+            </p>
+        </div>
+    </div>
 </body>
 </html>
