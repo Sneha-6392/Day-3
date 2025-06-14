@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Registration Form</title>
+</head>
+<body>
+    <form action="/submit" method="post">
+        <h1>Tech Fest 2025 - Registration Form</h1>
+
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+
+        </br>
+
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+        </br>
+
+        <div>
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" min="0" required>
+        </div>
+
+        </br>
+
+         <div>
+            <label>Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label>
+        </div>
+
+        </br>
+
+        <div>
+            <label for="event">Events interested in:</label>
+            <input type="checkbox" id="coding" name="events[]" value="coding">
+            <label for="coding">Coding Hackathon</label><br>
+            <input type="checkbox" id="robotics" name="events[]" value="robotics">
+            <label for="robotics">Robotics Challenge</label><br>
+            <input type="checkbox" id="quiz" name="events[]" value="quiz">
+            <label for="quiz">Tech Quiz</label><br>
+            <input type="checkbox" id="uiux" name="events[]" value="uiux">
+            <label for="uiux">UI/UX Design</label>
+        </div>
+
+        </br>
+        
+        <div>
+            <button type="submit">Register</button>
+        </div>
+    </form>
+</body>
+</html>
